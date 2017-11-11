@@ -11,7 +11,7 @@
 
 @interface GitHubRemoteService : NSObject
 
-- (void)getRepositoriesForUser:(NSString * __nonnull)aUser parameters:(NSDictionary * __nullable)aParameters onSuccess:(void (^)(NSArray <GitHubRepository *> *repositoryArray))successBlock onError:(void(^)(NSError *error))errorBlock;
+- (void)getRepositoriesForUser:(NSString * __nonnull)aUser parameters:(NSDictionary * __nullable)aParameters onSuccess:(void (^_Nullable)(NSArray <GitHubRepository *> * _Nullable repositoryArray))successBlock onError:(void(^_Nullable)(NSError * _Nullable error))errorBlock;
 
 
 @end
