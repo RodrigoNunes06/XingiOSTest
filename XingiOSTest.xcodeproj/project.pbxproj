@@ -11,12 +11,12 @@
 		9FAD29991FB6CEEB00CF3653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29981FB6CEEB00CF3653 /* AppDelegate.m */; };
 		9FAD299C1FB6CEEB00CF3653 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD299B1FB6CEEB00CF3653 /* ViewController.m */; };
 		9FAD29A11FB6CEEB00CF3653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD29A01FB6CEEB00CF3653 /* Assets.xcassets */; };
-		9FAD29A41FB6CEEB00CF3653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD29A21FB6CEEB00CF3653 /* LaunchScreen.storyboard */; };
 		9FAD29A71FB6CEEB00CF3653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29A61FB6CEEB00CF3653 /* main.m */; };
 		9FAD29B11FB6CEEB00CF3653 /* XingiOSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29B01FB6CEEB00CF3653 /* XingiOSTestTests.m */; };
 		9FAD29C01FB6D28500CF3653 /* GitHubRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29BF1FB6D28500CF3653 /* GitHubRepository.m */; };
 		9FAD29C41FB6D52000CF3653 /* GitHubRemoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29C31FB6D52000CF3653 /* GitHubRemoteService.m */; };
 		9FAD29C71FB6E15100CF3653 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29C61FB6E15100CF3653 /* CollectionViewCell.m */; };
+		9FAD29C91FB6EA0900CF3653 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD29C81FB6EA0900CF3653 /* Launch Screen.storyboard */; };
 		B9DDAEE4985DF978884665F2 /* libPods-XingiOSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 366A45FBAE53EE90B352ABC5 /* libPods-XingiOSTest.a */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 		9FAD299A1FB6CEEB00CF3653 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9FAD299B1FB6CEEB00CF3653 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9FAD29A01FB6CEEB00CF3653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9FAD29A31FB6CEEB00CF3653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FAD29A51FB6CEEB00CF3653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FAD29A61FB6CEEB00CF3653 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9FAD29AC1FB6CEEB00CF3653 /* XingiOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XingiOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +51,7 @@
 		9FAD29C31FB6D52000CF3653 /* GitHubRemoteService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubRemoteService.m; sourceTree = "<group>"; };
 		9FAD29C51FB6E15100CF3653 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		9FAD29C61FB6E15100CF3653 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		9FAD29C81FB6EA0900CF3653 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A8613EF6406AE0A9C20ED5D7 /* Pods-XingiOSTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTestTests/Pods-XingiOSTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0E01C3FB74252013B5FF40 /* Pods-XingiOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTest/Pods-XingiOSTest.release.xcconfig"; sourceTree = "<group>"; };
 		F4197421777A63E09D1F2262 /* libPods-XingiOSTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XingiOSTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,9 +132,9 @@
 		9FAD29BC1FB6D24B00CF3653 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9FAD29A21FB6CEEB00CF3653 /* LaunchScreen.storyboard */,
 				9FAD29C51FB6E15100CF3653 /* CollectionViewCell.h */,
 				9FAD29C61FB6E15100CF3653 /* CollectionViewCell.m */,
+				9FAD29C81FB6EA0900CF3653 /* Launch Screen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FAD29A41FB6CEEB00CF3653 /* LaunchScreen.storyboard in Resources */,
+				9FAD29C91FB6EA0900CF3653 /* Launch Screen.storyboard in Resources */,
 				9FAD29A11FB6CEEB00CF3653 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,17 +411,6 @@
 			targetProxy = 9FAD29AD1FB6CEEB00CF3653 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9FAD29A21FB6CEEB00CF3653 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FAD29A31FB6CEEB00CF3653 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9FAD29B31FB6CEEB00CF3653 /* Debug */ = {
