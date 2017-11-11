@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103F8687A924521F499331B1 /* libPods-XingiOSTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4197421777A63E09D1F2262 /* libPods-XingiOSTestTests.a */; };
 		9FAD29991FB6CEEB00CF3653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29981FB6CEEB00CF3653 /* AppDelegate.m */; };
 		9FAD299C1FB6CEEB00CF3653 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD299B1FB6CEEB00CF3653 /* ViewController.m */; };
 		9FAD299F1FB6CEEB00CF3653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD299D1FB6CEEB00CF3653 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		9FAD29A41FB6CEEB00CF3653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD29A21FB6CEEB00CF3653 /* LaunchScreen.storyboard */; };
 		9FAD29A71FB6CEEB00CF3653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29A61FB6CEEB00CF3653 /* main.m */; };
 		9FAD29B11FB6CEEB00CF3653 /* XingiOSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29B01FB6CEEB00CF3653 /* XingiOSTestTests.m */; };
+		B9DDAEE4985DF978884665F2 /* libPods-XingiOSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 366A45FBAE53EE90B352ABC5 /* libPods-XingiOSTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		366A45FBAE53EE90B352ABC5 /* libPods-XingiOSTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XingiOSTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB126504CBD134C9703D4FC /* Pods-XingiOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTest/Pods-XingiOSTest.debug.xcconfig"; sourceTree = "<group>"; };
+		77E29252DB28DA976482A09F /* Pods-XingiOSTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTestTests/Pods-XingiOSTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		9FAD29941FB6CEEB00CF3653 /* XingiOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XingiOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAD29971FB6CEEB00CF3653 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FAD29981FB6CEEB00CF3653 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		9FAD29AC1FB6CEEB00CF3653 /* XingiOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XingiOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAD29B01FB6CEEB00CF3653 /* XingiOSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XingiOSTestTests.m; sourceTree = "<group>"; };
 		9FAD29B21FB6CEEB00CF3653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8613EF6406AE0A9C20ED5D7 /* Pods-XingiOSTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTestTests/Pods-XingiOSTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0E01C3FB74252013B5FF40 /* Pods-XingiOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTest/Pods-XingiOSTest.release.xcconfig"; sourceTree = "<group>"; };
+		F4197421777A63E09D1F2262 /* libPods-XingiOSTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XingiOSTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DDAEE4985DF978884665F2 /* libPods-XingiOSTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103F8687A924521F499331B1 /* libPods-XingiOSTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				9FAD29961FB6CEEB00CF3653 /* XingiOSTest */,
 				9FAD29AF1FB6CEEB00CF3653 /* XingiOSTestTests */,
 				9FAD29951FB6CEEB00CF3653 /* Products */,
+				B4570BCA09DE3DA043BD23E0 /* Pods */,
+				FCDE41AF96415457E6241B19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +115,26 @@
 			path = XingiOSTestTests;
 			sourceTree = "<group>";
 		};
+		B4570BCA09DE3DA043BD23E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CB126504CBD134C9703D4FC /* Pods-XingiOSTest.debug.xcconfig */,
+				AA0E01C3FB74252013B5FF40 /* Pods-XingiOSTest.release.xcconfig */,
+				A8613EF6406AE0A9C20ED5D7 /* Pods-XingiOSTestTests.debug.xcconfig */,
+				77E29252DB28DA976482A09F /* Pods-XingiOSTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCDE41AF96415457E6241B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				366A45FBAE53EE90B352ABC5 /* libPods-XingiOSTest.a */,
+				F4197421777A63E09D1F2262 /* libPods-XingiOSTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FAD29B51FB6CEEB00CF3653 /* Build configuration list for PBXNativeTarget "XingiOSTest" */;
 			buildPhases = (
+				8D19E4E075EEA9037EC30197 /* [CP] Check Pods Manifest.lock */,
 				9FAD29901FB6CEEB00CF3653 /* Sources */,
 				9FAD29911FB6CEEB00CF3653 /* Frameworks */,
 				9FAD29921FB6CEEB00CF3653 /* Resources */,
+				B0884269EFF56E65101B594B /* [CP] Embed Pods Frameworks */,
+				70420BFE0F351619FAA9CF81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FAD29B81FB6CEEB00CF3653 /* Build configuration list for PBXNativeTarget "XingiOSTestTests" */;
 			buildPhases = (
+				82B796C0D3BADA9D0480435A /* [CP] Check Pods Manifest.lock */,
 				9FAD29A81FB6CEEB00CF3653 /* Sources */,
 				9FAD29A91FB6CEEB00CF3653 /* Frameworks */,
 				9FAD29AA1FB6CEEB00CF3653 /* Resources */,
+				B3502DF710FD515ED5F61D4E /* [CP] Embed Pods Frameworks */,
+				75F670B8415EE3C49F5E303C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +237,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70420BFE0F351619FAA9CF81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XingiOSTest/Pods-XingiOSTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F670B8415EE3C49F5E303C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XingiOSTestTests/Pods-XingiOSTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82B796C0D3BADA9D0480435A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XingiOSTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D19E4E075EEA9037EC30197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XingiOSTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0884269EFF56E65101B594B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XingiOSTest/Pods-XingiOSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3502DF710FD515ED5F61D4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XingiOSTestTests/Pods-XingiOSTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9FAD29901FB6CEEB00CF3653 /* Sources */ = {
@@ -355,6 +492,7 @@
 		};
 		9FAD29B61FB6CEEB00CF3653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB126504CBD134C9703D4FC /* Pods-XingiOSTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,6 +507,7 @@
 		};
 		9FAD29B71FB6CEEB00CF3653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0E01C3FB74252013B5FF40 /* Pods-XingiOSTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,6 +522,7 @@
 		};
 		9FAD29B91FB6CEEB00CF3653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8613EF6406AE0A9C20ED5D7 /* Pods-XingiOSTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +538,7 @@
 		};
 		9FAD29BA1FB6CEEB00CF3653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E29252DB28DA976482A09F /* Pods-XingiOSTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
