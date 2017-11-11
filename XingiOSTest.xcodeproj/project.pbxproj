@@ -15,6 +15,7 @@
 		9FAD29A41FB6CEEB00CF3653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD29A21FB6CEEB00CF3653 /* LaunchScreen.storyboard */; };
 		9FAD29A71FB6CEEB00CF3653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29A61FB6CEEB00CF3653 /* main.m */; };
 		9FAD29B11FB6CEEB00CF3653 /* XingiOSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29B01FB6CEEB00CF3653 /* XingiOSTestTests.m */; };
+		9FAD29C01FB6D28500CF3653 /* GitHubRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD29BF1FB6D28500CF3653 /* GitHubRepository.m */; };
 		B9DDAEE4985DF978884665F2 /* libPods-XingiOSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 366A45FBAE53EE90B352ABC5 /* libPods-XingiOSTest.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		9FAD29AC1FB6CEEB00CF3653 /* XingiOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XingiOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAD29B01FB6CEEB00CF3653 /* XingiOSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XingiOSTestTests.m; sourceTree = "<group>"; };
 		9FAD29B21FB6CEEB00CF3653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAD29BE1FB6D28500CF3653 /* GitHubRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHubRepository.h; sourceTree = "<group>"; };
+		9FAD29BF1FB6D28500CF3653 /* GitHubRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubRepository.m; sourceTree = "<group>"; };
 		A8613EF6406AE0A9C20ED5D7 /* Pods-XingiOSTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTestTests/Pods-XingiOSTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0E01C3FB74252013B5FF40 /* Pods-XingiOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XingiOSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XingiOSTest/Pods-XingiOSTest.release.xcconfig"; sourceTree = "<group>"; };
 		F4197421777A63E09D1F2262 /* libPods-XingiOSTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XingiOSTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +96,9 @@
 		9FAD29961FB6CEEB00CF3653 /* XingiOSTest */ = {
 			isa = PBXGroup;
 			children = (
+				9FAD29BB1FB6D23900CF3653 /* Model */,
+				9FAD29BC1FB6D24B00CF3653 /* View */,
+				9FAD29BD1FB6D25700CF3653 /* Controller */,
 				9FAD29971FB6CEEB00CF3653 /* AppDelegate.h */,
 				9FAD29981FB6CEEB00CF3653 /* AppDelegate.m */,
 				9FAD299A1FB6CEEB00CF3653 /* ViewController.h */,
@@ -113,6 +119,29 @@
 				9FAD29B21FB6CEEB00CF3653 /* Info.plist */,
 			);
 			path = XingiOSTestTests;
+			sourceTree = "<group>";
+		};
+		9FAD29BB1FB6D23900CF3653 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD29BE1FB6D28500CF3653 /* GitHubRepository.h */,
+				9FAD29BF1FB6D28500CF3653 /* GitHubRepository.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FAD29BC1FB6D24B00CF3653 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FAD29BD1FB6D25700CF3653 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		B4570BCA09DE3DA043BD23E0 /* Pods */ = {
@@ -342,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FAD29C01FB6D28500CF3653 /* GitHubRepository.m in Sources */,
 				9FAD299C1FB6CEEB00CF3653 /* ViewController.m in Sources */,
 				9FAD29A71FB6CEEB00CF3653 /* main.m in Sources */,
 				9FAD29991FB6CEEB00CF3653 /* AppDelegate.m in Sources */,
