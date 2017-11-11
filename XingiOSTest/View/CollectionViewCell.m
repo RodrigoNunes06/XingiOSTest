@@ -10,5 +10,17 @@
 
 @implementation CollectionViewCell
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    
+    if (self) {
+        
+    }
+    
+    return self;
+}
 
++ (NSString * __nonnull)getCellReuseIdentifier {
+    return @"repositoryCell";
+}
 @end

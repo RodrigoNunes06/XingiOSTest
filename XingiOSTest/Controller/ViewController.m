@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GitHubRepository.h"
+#import "CollectionViewCell.h"
 
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -36,16 +37,23 @@
     [layout setMinimumInteritemSpacing:10];
     [layout setSectionInset:UIEdgeInsetsMake(0, 0, 0, 0)];
     [layout setScrollDirection:UICollectionViewScrollDirectionVertical];
-    
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cellIdentifier"];
+
     [self.collectionView setBackgroundColor:[UIColor lightGrayColor]];
+    [self.collectionView registerClass:[CollectionViewCell class] forCellWithReuseIdentifier:[CollectionViewCell getCellReuseIdentifier]];
     
     [self.view addSubview:self.collectionView];
 }
 
 #pragma mark - CollectionView Datasource
 
+- (nonnull __kindof UICollectionViewCell *)collectionView:(nonnull UICollectionView *)collectionView cellForItemAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[CollectionViewCell getCellReuseIdentifier] forIndexPath:indexPath];
+    return cell;
+}
 
+- (NSInteger)collectionView:(nonnull UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return [self.repositoryArray count];
+}
 
 
 

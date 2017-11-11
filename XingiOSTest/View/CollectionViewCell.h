@@ -14,4 +14,6 @@
 @property (strong, nonatomic, nonnull) UILabel *descriptionLabel;
 @property (strong, nonatomic, nonnull) UILabel *ownerLoginLabel;
 
++ (NSString * __nonnull)getCellReuseIdentifier;
+
 @end
